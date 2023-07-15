@@ -167,6 +167,8 @@ if ( $is_admin == true ) {
 				<?php } } ?>
 
 				<h4 class="aduan-table-heading">Laporan Terakhir</h4>
+
+				<div class="table-overflow">
 				<table>
 					<tr>
 						<th>No</th>
@@ -193,6 +195,8 @@ if ( $is_admin == true ) {
 					</tr>
 					<?php } ?>
 				</table>
+				</div>
+
 			</div>
 
 		</div>

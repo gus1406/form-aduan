@@ -25,6 +25,7 @@ if ( ! isset( $_SESSION['id'] ) ) {
 				<?php } } ?>
 
 				<h4 class="aduan-table-heading">Laporan Anda</h4>
+				<div class="table-overflow">
 				<table>
 					<tr>
 						<th>No</th>
@@ -70,6 +71,7 @@ if ( ! isset( $_SESSION['id'] ) ) {
 					</tr>
 					<?php } ?>
 				</table>
+				</div>
 			</div>
 
 		</div>

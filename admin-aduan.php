@@ -33,6 +33,7 @@ if ( ! isset($_SESSION['id']) ) {
 				<?php } } ?>
 
 				<h4 class="aduan-table-heading">Data Laporan</h4>
+				<div class="table-overflow">
 				<table>
 					<tr>
 						<th>No</th>
@@ -83,6 +84,7 @@ if ( ! isset($_SESSION['id']) ) {
 					</tr>
 					<?php } ?>
 				</table>
+				</div>
 
 				<div class="aduan-pagination">
 				<?php if ( $halaman_aktif > 1 ): ?>
